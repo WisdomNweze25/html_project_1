@@ -9,158 +9,124 @@
       sizes="32x32"
       href="Wisdom/favicon-32x32.png"
     />
-    <meta name="description" content="this is wisdom's portfolio" />
+    <meta name="description" content="This is Wisdom's portfolio" />
     <meta name="keywords" content="Users information" />
-    <title>Wisdom's portfolio</title>
+    <title>Wisdom's Portfolio</title>
+
+    <!-- Link to Google Fonts for Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- this is a nav bar -->
-    <section>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+      <h1>Home Section</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zumJJUL_ruM?si=Pc9KCGh74cKyoMPA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <h3>Song Title by: Wizkid - Money & Love</h3>
+      <audio controls>
+        <source
+          src="Music/01 Wizkid - Money & Love (NetNaija.com).mp3"
+          type="audio/mpeg"
+        />
+      </audio>
     </section>
-    <!-- ----------------- -->
-    <!-- this is home section -->
-    <section id="home">
-      <div>
-        <h1>Home Section</h1>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/zumJJUL_ruM?si=Pc9KCGh74cKyoMPA"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <br />
-        <h3>Song Title by: Wizkid -Money & Love</h3>
-        <audio controls>
-          <source
-            src="Music/01 Wizkid - Money & Love (NetNaija.com).mp3"
-            type="audio/mpeg"
-          />
-        </audio>
-      </div>
-    </section>
-    <!-- ---------------------- -->
-    <!-- this is about section -->
-    <section id="about">
+
+    <!-- About Section -->
+    <section id="about" class="section about">
       <h1>About Section</h1>
-      <img
-        src="Images/about.jpg"
-        alt="about"
-        style="height: 300px; width: 600px"
-      />
+      <img src="Images/about.jpg" alt="about" class="section-image" />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
         scrambled it to make a type specimen book. It has survived not only five
         centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        essentially unchanged.
       </p>
     </section>
-    <!-- ------------------ -->
-    <!-- this is work section -->
-    <section id="work">
-      <div>
-        <h1>Work Section</h1>
-        <img
-          src="Images/work.jpg"
-          alt="Work"
-          style="height: 300px; width: 600px"
-        />
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-      </div>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+      <h1>Work Section</h1>
+      <img src="Images/work.jpg" alt="Work" class="section-image" />
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
     </section>
-    <!-- ------------- ----->
-    <!-- this is Resume Section -->
-    <section id="resume">
-      <div>
-        <h1>Resume Section</h1>
-        <img
-          src="Images/Resume.png"
-          alt="Resume"
-          style="height: 300px; width: 600px"
-        />
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-      </div>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume">
+      <h1>Resume Section</h1>
+      <img src="Images/Resume.png" alt="Resume" class="section-image" />
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
     </section>
-    <!-- ------------------- -->
-    <!-- this is contact section -->
-    <section id="contact">
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
       <h1>Contact Section</h1>
       <form>
-        <label>Full Name:</label>
-        <input type="text" />
-      </form>
-      <br />
-      <form>
-        <label>Email:</label>
-        <input type="text" />
-      </form>
-      <br />
-      <form>
-        <label>Phone:</label>
-        <input type="number" />
-      </form>
-      <br />
-      <form>
-        <label>address:</label>
-        <input type="text" />
-      </form>
-      <br />
-      <form>
-        <label>Birtday:</label>
-        <input type="date" />
-      </form>
-      <br />
-      <form>
-        <button type="submit">summit</button>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <br />
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required />
+        <br />
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required />
+        <br />
+        <button type="submit">Submit</button>
       </form>
     </section>
-    <!-- ----------------------- -->
-    <!-- this is footer section -->
+
+    <!-- Footer Section -->
     <footer>
       <section>
         <hr />
-        <br />
-
-        &copy;Wisdom 2024. All right reserved.
+        <p>&copy; Wisdom 2024. All rights reserved.</p>
       </section>
     </footer>
-
-    <!-- --------------------- -->
   </body>
 </html>
